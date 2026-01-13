@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>KanChi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  
+    <div class="task-input-section">
+      <h1 id="main-title">KanChi</h1>
+      <input id="task-input" type="text" placeholder="Add a task..." />
+    </div>
+    <div class="floating-tasks" id="floating-tasks"></div>
+    <main class="board" id="board"></main>
+    <button id="add-column-btn" type="button" class="add-column-hover">+ add column</button>
+
+    <template id="column-template">
+      <section class="column">
+        <header class="column-header">
+          <div class="drag-handle">⋮⋮</div>
+          <input class="column-title" />
+          <button class="delete-column" type="button">×</button>
+        </header>
+        <div class="column-cards"></div>
+        <button class="add-card" type="button">+ add</button>
+      </section>
+    </template>
+
+    <template id="card-template">
+      <article class="card">
+        <textarea class="card-text"></textarea>
+      </article>
+    </template>
+
+    <template id="floating-card-template">
+      <article class="floating-card">
+        <textarea class="floating-card-text"></textarea>
+      </article>
+    </template>
+
+    <div id="trash-can" class="trash-can" aria-label="Trash" title="Trash">
+      🗑
+    </div>
+    <div id="drop-indicator" class="drop-indicator"></div>
+
+    <script src="src/main.js"></script>
+  </body>
+</html>
