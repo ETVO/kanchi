@@ -8,6 +8,8 @@ A lightweight, physics-enabled Kanban board application with floating task cards
 
 Developed in collaboration with [Warp Agentic Terminal](https://www.warp.dev/) as a demonstration of interactive UI physics and drag-and-drop functionality.
 
+The name "Kanchi" blends "Kanban" and "Tai Chi" — inspired by the flowing energy and gentle wind, that guides tasks across your board.
+
 https://github.com/user-attachments/assets/0fee0acb-f8b2-4906-8f47-70c92200530f
 
 ## 🌟 Key Features
